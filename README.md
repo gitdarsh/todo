@@ -1,4 +1,4 @@
-# todo
+# todo-app
 
 ## A todo app; basic project that reflects CRUD operations, made with fastapi.
 
@@ -7,3 +7,7 @@
 3. experiment and have fun!
 
 ## *Thanks*
+
+# To-Do
+
+1. Add Authentication.
