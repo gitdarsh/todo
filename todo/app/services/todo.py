@@ -16,7 +16,7 @@ def add_task(rq:tasks.task, db:Session):
     return new_task
 
 def del_task(id:int, db:Session):
-    task = db.query(model.Task).filter(model.Task.id == id)
+    task = db.query(model.Task).filter(model.Task.id == id).first()
 
     if not task:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND)
